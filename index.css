@@ -10,6 +10,7 @@ body {
   
   background: #f7f9fc;
   color: #333;
+
 }
 
 
@@ -67,6 +68,7 @@ body {
   padding: 4rem 2rem;
   background: linear-gradient(120deg, #e0f7fa, #ffffff);
   min-height: 70vh;
+  background-image: url(image/house.jpeg);
 }
 
 
