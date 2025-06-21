@@ -1,18 +1,13 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
 body {
-  
   background: #f7f9fc;
   color: #333;
-
 }
-
 
 .navbar {
   display: flex;
@@ -20,7 +15,7 @@ body {
   align-items: center;
   background-color: #ffffff;
   padding: 1rem 2rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -57,18 +52,113 @@ body {
 }
 
 .navs1 a:hover {
-  color: #007BFF;
+  color: #007bff;
 }
 
-
 .content {
-  display: flex;
-  justify-content: center;
+  
+ 
   align-items: center;
   padding: 4rem 2rem;
   background: linear-gradient(120deg, #e0f7fa, #ffffff);
   min-height: 70vh;
   background-image: url(image/house.jpeg);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+
 }
+.forms input{
+ padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 1rem;
+  width: 300px;
+  cursor: pointer;
+}
+.content h1{
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.forms button{
+background-color: #007bff;
+  width: 100px;
+  border: none;
+  border-radius: 110px;
+  height: 40px;
+  transition: 0.4ms ease-in;
+  cursor: pointer;
+  color: white;
+  font-size: 30px;
+}
+.forms input:focus{
+  border: none;
+
+}
+.forms button:hover{
+  background-color: #0968ce;
+  transition: ease-in-out;
+}
+.forms{
+  background-color: white;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+.content2{
+  background-color: #191E3B;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 0.5rem;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 2rem;
+  
+}
+.content2 button{
+  background-color: #124FAA;
+  width: 100px;
+  border-radius: 20px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+}
+.cart1{
+  
+  transition: 0.4s ease-in-out;
+}
+.carts{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+gap: 1rem;
+margin: 20px;
+color: white;
+cursor: pointer;
+transition: 0.4s ease-in-out;
 
 
+}
+.carts img{
+  width: 220px;
+  
+
+}
+.cart1:hover{
+  transition: 0.4s ease-in-out;
+
+}
+.carts2{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1rem;
+margin: 20px;
+color: rgb(2, 2, 2);
+cursor: pointer;
+transition: 0.4s ease-in-out;
+}
+.carts2 img{
+    width: 290px;
+}
