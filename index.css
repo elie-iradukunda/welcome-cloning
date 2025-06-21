@@ -132,6 +132,7 @@ background-color: #007bff;
 }
 .carts{
 display: grid;
+margin-top: 4rem;
 grid-template-columns: repeat(5,1fr);
 gap: 1rem;
 margin: 20px;
@@ -158,7 +159,58 @@ margin: 20px;
 color: rgb(2, 2, 2);
 cursor: pointer;
 transition: 0.4s ease-in-out;
+margin-top: 4rem;
+
 }
 .carts2 img{
     width: 290px;
+}
+.carts3{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1rem;
+margin: 20px;
+color: rgb(2, 2, 2);
+cursor: pointer;
+transition: 0.4s ease-in-out;
+margin-top: 4rem;
+}
+.carts3 img{
+    width: 590px;
+}
+.carts4{
+    display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1rem;
+margin: 20px;
+color: rgb(2, 2, 2);
+cursor: pointer;
+transition: 0.4s ease-in-out;
+margin-top: 4rem;
+}
+.cart4 img{
+  width: 290px;
+}
+.content2 img{
+  width: 50px;
+}
+.carts5{
+      display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 1rem;
+margin: 20px;
+color: rgb(2, 2, 2);
+cursor: pointer;
+transition: 0.4s ease-in-out;
+margin-top: 4rem;
+border: 1px solid rgb(145, 140, 140); 
+border-radius: 20px;
+}
+.cart5 img{
+  width: 230px;
+}
+.cart5 p{
+  font-size: 15px;
+  margin-top: 1rem;
+  
 }
